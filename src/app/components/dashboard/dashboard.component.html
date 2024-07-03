@@ -1,0 +1,20 @@
+<hgroup>
+  <h2>Finanzas Personales</h2>
+ </hgroup>
+<div class="dashboard-container">
+  <nav class="sidebar">
+    <ul>
+      <li><a routerLink="transaction">Transacciones</a></li>
+      <li><a routerLink="category">Categorias</a></li>
+      <li><a routerLink="liability">Pasivos</a></li>
+      <li><a routerLink="assets">Activos</a></li>
+      <li><a routerLink="accounts">Cuentas</a></li>
+      <!-- Agregar más enlaces de navegación aquí -->
+    </ul>
+    <button (click)="logout()" class="logout-button">Cerrar Sesión</button>
+
+  </nav>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

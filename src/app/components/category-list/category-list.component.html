@@ -1,0 +1,20 @@
+<p>                   </p>
+<p>                   </p>
+<div class="category-list-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Tipo</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let category of category">
+          <td>{{ category.name }}</td>
+          <td>{{ category.type }}</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+

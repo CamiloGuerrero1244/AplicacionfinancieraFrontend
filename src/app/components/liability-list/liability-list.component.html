@@ -1,0 +1,23 @@
+<p>                   </p>
+<p>                   </p>
+<div class="liability-list-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Valor</th>
+          <th>Descripción</th>
+        
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let liability of liability">
+          <td>{{ liability.name }}</td>
+          <td>{{ liability.amount }}</td>
+          <td>{{ liability.description }}</td>
+         
+        </tr>
+      </tbody>
+    </table>
+  </div>
+

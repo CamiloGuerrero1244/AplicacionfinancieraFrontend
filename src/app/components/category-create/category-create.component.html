@@ -1,0 +1,15 @@
+<p>                        </p>
+
+<form (ngSubmit)="createCategory()">
+    <div>
+      <label for="name">Nombre:</label>
+      <input id="name" type="text" [(ngModel)]="newCategory.name" name="name" required>
+    </div>
+    <div>
+      <label for="type">Tipo:</label>
+      <input id="type" type="text" [(ngModel)]="newCategory.type" name="type" required>
+    </div>
+    
+    <button type="submit">Agregar Categoria</button>
+  </form>
+  

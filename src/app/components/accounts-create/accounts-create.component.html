@@ -1,0 +1,18 @@
+<p>                        </p>
+
+<form (ngSubmit)="createAccounts()">
+    <div>
+      <label for="name">Nombre:</label>
+      <input id="name" type="text" [(ngModel)]="newAccount.name" name="name" required>
+    </div>
+    <div>
+      <label for="balance">Movimiento:</label>
+      <input id="balance" type="number" [(ngModel)]="newAccount.balance" name="balance" required>
+    </div>
+    <div>
+      <label for="type">Tipo:</label>
+      <input id="type" type="text" [(ngModel)]="newAccount.type" name="type" required>
+    </div>
+    <button type="submit">Agregar Cuenta</button>
+  </form>
+  

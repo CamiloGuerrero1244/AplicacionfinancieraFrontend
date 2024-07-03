@@ -1,0 +1,25 @@
+<!-- src/app/login/login.component.html -->
+<form (ngSubmit)="login()" class="theme-container">
+  <div>
+    <hgroup>
+      <h2>Finanzas Personales</h2>
+      <p>Lleva un Control en tiempo real de tus finanzas</p>
+    </hgroup>
+  </div>
+
+  <p>Inicia Sesión</p>
+  <section>
+    <div>
+      <label for="identification">Identificación:</label>
+      <input id="identification" [(ngModel)]="credentials.identification" name="identification" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input id="password" type="password" [(ngModel)]="credentials.password" name="password" required>
+    </div>
+    <button type="submit">Login</button>
+    <div>
+      <p>¿No tienes cuenta? <a routerLink="../register">Regístrate</a></p>
+    </div>
+  </section>
+</form>

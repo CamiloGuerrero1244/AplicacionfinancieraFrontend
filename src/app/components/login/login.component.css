@@ -1,0 +1,43 @@
+/* src/styles.css */
+
+.theme-container {
+    background-color: #f5f5f5; /* Color de fondo */
+    color: #333;              /* Color de texto */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .theme-container h2 {
+    color: #007bff;           /* Color de encabezado */
+  }
+  
+  .theme-container input {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .theme-container button {
+    background-color: #007bff; /* Color del botón */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .theme-container button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el ratón */
+  }
+  
+  .theme-container a {
+    color: #007bff;
+  }
+  
+  .theme-container a:hover {
+    text-decoration: underline;
+  }
+  

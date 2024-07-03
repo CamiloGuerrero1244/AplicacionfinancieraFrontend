@@ -1,0 +1,59 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh; /* Altura completa de la ventana */
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f4f4f4; /* Color de fondo del menú */
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Sombra para el menú */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333; /* Color del texto */
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el mouse */
+  }
+  
+  .logout-button {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff3333;
+  }
+
+
+
+
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #130101; /* Color de fondo del contenido */
+  }
+  

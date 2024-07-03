@@ -1,0 +1,18 @@
+.transactions-container {
+    text-align: left; /* Opcional, para centrar los botones */
+  }
+  
+  .transaction-button {
+    margin: 10px 40px; /* Ajusta el valor según el espacio que desees */
+    padding: 10px 20px; /* Ajusta según el tamaño que desees para los botones */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Opcional, para esquinas redondeadas */
+  }
+  
+  .transaction-button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+  }
+  

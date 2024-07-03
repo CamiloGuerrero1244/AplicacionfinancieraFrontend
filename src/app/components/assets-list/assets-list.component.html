@@ -1,0 +1,23 @@
+<p>                   </p>
+<p>                   </p>
+<div class="assets-list-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Valor</th>
+          <th>Descripción</th>
+        
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let assets of assets">
+          <td>{{ assets.name }}</td>
+          <td>{{ assets.value }}</td>
+          <td>{{ assets.description }}</td>
+         
+        </tr>
+      </tbody>
+    </table>
+  </div>
+

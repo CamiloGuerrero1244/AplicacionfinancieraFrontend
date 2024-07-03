@@ -1,0 +1,23 @@
+<p>                   </p>
+<p>                   </p>
+<div class="accounts-list-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Balance</th>
+          <th>tipo</th>
+        
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let accounts of accounts">
+          <td>{{ accounts.name }}</td>
+          <td>{{ accounts.balance }}</td>
+          <td>{{ accounts.type }}</td>
+         
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
